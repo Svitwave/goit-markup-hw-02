@@ -167,13 +167,10 @@ p {
   font-size: 16px; /*?????*/
   letter-spacing: 0.02em;
   color: var(--navyblue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -184,7 +181,10 @@ p {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
 /* Команда */
 .team-section {
   background-color: #f4f4fd;
