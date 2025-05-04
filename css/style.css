@@ -16,12 +16,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* скидання підкреслень */
-a:link,
-a:visited {
-  color: var(--navyblue); /* Колір для відвіданих посилань */
-}
-
 a {
   text-decoration: none;
   color: inherit;
