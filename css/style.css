@@ -1,0 +1,250 @@
+:root {
+  --white: #ffffff;
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* скидання підкреслень */
+a:link {
+  color: var(--navyblue); /* Колір для неперевірених посилань */
+}
+a:visited {
+  color: var(--navyblue); /* Колір для відвіданих посилань */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Інтерактивні елементи */
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+a:link {
+  color: var(--navyblue); /* Колір для неперевірених посилань */
+}
+a:visited {
+  color: var(--navyblue); /* Колір для відвіданих посилань */
+}
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+a:active {
+  color: #404bbf; /* Колір при натисканні */
+}
+
+button:hover,
+button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+/* Типографія */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--navyblue);
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+p {
+  margin: 0;
+}
+
+/* Кнопки */
+.button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+.hero-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* Секції */
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Портфоліо */
+.portfolio-section {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-studio {
+  color: var(--navyblue);
+}
+
+/* Навігація */
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Контакти */
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Команда */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+/* Картка команди */
+.team-card {
+  background-color: #ffffff;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Адреса */
+.address {
+  font-style: normal;
+}
+
+/* футер */
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.page-footer .logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #4d5ae5;
+}
+
+.page-footer .logo-studio {
+  color: var(--cloud);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
